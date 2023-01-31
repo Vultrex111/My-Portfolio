@@ -45,10 +45,35 @@ body{
     align-items: center;
     transition: 0.5s;
 }
-.container .card:hover .box{
+.container .card:hover .one .box{
     transform: translateY(-50px);
     box-shadow: 0 10px 40px rgba(0, 0, 0,0.4);
-    background: linear-gradient(45deg,#b95ce4,#4f29cd);
+    background: url(./images/new\ \(8\).jpg);
+    background-size: cover;
+}
+.container .card:hover .two .box{
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0,0.4);
+    background: url(./images/new1.jpg);
+    background-size: cover;
+}
+.container .card:hover .three .box{
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0,0.4);
+    background: url(./images/img\ 11.jpg);
+    background-size: contain;
+}
+.container .card:hover .four .box{
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0,0.4);
+    background: url(./images/new\ \(5\).jpg);
+    background-size: cover;
+}
+.container .card:hover .five .box{
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0,0.4);
+    background: url(./images/new\ \(6\).jpg);
+    background-size: cover;
 }
 .container .card .box .content{
     padding: 20px;
@@ -81,7 +106,7 @@ body{
 }
 .container .card:hover .box .content h3,
 .container .card:hover .box .content p{
-    color: rgba(218, 184, 16, 0.666);
+    color: rgb(14, 15, 15);
 }
 .container .card .box .content a{
     position: relative;
@@ -97,4 +122,24 @@ body{
 }
 .container .card .box .content a{
     background: #cb17c8b2;
+}
+.git{
+    position:absolute;
+    padding: 8px 20px;
+    background: #03a9fa;
+    margin-bottom: -65rem;
+    margin-right: 21rem;
+    border-radius: 20px;
+    color: #ebf5fc;
+    text-decoration: none;
+    font-weight: 400;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    transition: .5s;
+}
+.git:hover{
+    margin-bottom: -11rem;
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0,0.4);
+    z-index: 1;
+    transition: 3s;
 }
